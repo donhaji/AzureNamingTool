@@ -54,4 +54,4 @@ jobs:
           app-name: 'continonamingtool'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_180097688FEC459790F155BC32CF46E7 }}
-          package: './src'
+          package: .
